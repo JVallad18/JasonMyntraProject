@@ -12,7 +12,7 @@ public class MyntraStepDef {
 	@Given("^Myntra Homepage is launched\\.$")
 	public void myntra_Homepage_is_launched() throws Throwable {
 	PageActions.homepage();        
-	       
+	 //Im i suppose to add anything else?      
 	}
 
 	@When("^Customer Mouse over essential dropbox$")
