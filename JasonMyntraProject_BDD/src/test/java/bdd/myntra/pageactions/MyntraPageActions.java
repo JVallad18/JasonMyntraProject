@@ -39,8 +39,8 @@ public class MyntraPageActions {
 	public void Size () {
 		action.moveToElement(PageElements.Size).build().perform();
 	}
-	public void ADD() {
-		action.moveToElement(PageElements.ADD).build().perform();
+	public void Add() {
+		action.moveToElement(PageElements.Add).build().perform();
 	}
 	public void Bag() {
 		action.moveToElement(PageElements.Bag).build().perform();

@@ -8,7 +8,7 @@ public class SetUpDriver {
 	public static WebDriver chromeDriver;
 
 	public static void setupChromeDriver() {
-		System.setProperty("webdriver.chrome.Driver","C:\\Users\\JAY\\Documents\\Chrome Driver Myntra\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		chromeDriver = new ChromeDriver();
 	}
 

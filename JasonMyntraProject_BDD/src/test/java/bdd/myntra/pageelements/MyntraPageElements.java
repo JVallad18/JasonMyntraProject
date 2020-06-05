@@ -20,8 +20,8 @@ public class MyntraPageElements {
 	@FindBy(xpath="//*[@id=\'sizButtonsContainer\']/div[2]/a[2]/div/div[1]/button/p")
 	public WebElement Size;
 	
-	@FindBy(xpath="//*[@id=\"mountRoot\"]/div/div/div/main/div[2]/div[2]/div[3]/div/a/span[1]")
-	public WebElement ADD;
+	@FindBy(xpath="//*[@id=\'mountRoot\']/div/div/div/main/div[2]/div[2]/div[3]/div/a/span[1]")
+	public WebElement Add;
 	
 	@FindBy(xpath="//*[@id=\'desktop-header-cnt\']/div[2]/div[2]/a[2]/span[1]")
 	public WebElement Bag;
